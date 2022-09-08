@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * The entry point of the program
+ * main - The entry point of the program
  * 
- * Description: Simple program to print a string
+ * Return: 0
  */
 int main(void)
 {
