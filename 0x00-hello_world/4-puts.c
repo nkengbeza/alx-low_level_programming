@@ -2,6 +2,7 @@
 
 /**
  * Simple program to print a string
+ *
  * Returns 0 
  */
 int main(void) {
