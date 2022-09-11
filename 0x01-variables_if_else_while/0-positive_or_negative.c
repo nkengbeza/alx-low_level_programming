@@ -6,7 +6,7 @@
   *
   * Description: This application determines if a randomly generated number
   * is a positive, negative or zero.
-  * 
+  *
   * Return: 0. The program always successfully exits with 0
   */
 int main(void)
