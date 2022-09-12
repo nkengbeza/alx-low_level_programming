@@ -26,7 +26,7 @@ while (h < 58)
 			while (i < 58)
 			{
 				op1 = (h * 10) + g;
-				op2 = (e * 10) + i;(0 chars long)
+				op2 = (e * 10) + i;
 				if (op1 < op2)
 				{
 					putchar(h);
