@@ -12,7 +12,7 @@ int main(void)
 	char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	for (i = 0; i < 52; i++)
-	{	
+	{
 		putchar(alphabet[i]);
 	}
 	putchar('\n');
