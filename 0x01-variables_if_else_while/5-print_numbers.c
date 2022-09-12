@@ -3,7 +3,7 @@
   * main - Entry point of the program
   *
   * Description: all single digit numbers of base 10 starting
-  * from 0, followed by a new line. 
+  * from 0, followed by a new line.
   *
   * Return: 0. The program always successfully exits with 0
   */
