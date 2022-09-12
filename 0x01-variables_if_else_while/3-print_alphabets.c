@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
   * main - Entry point of the program
   *
@@ -10,19 +9,11 @@
 int main(void)
 {
 	int i;
-	char c, alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	char c, alphabet[52] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; i < 52; i++)
-	{
-		if (i >= 26)
-		{
-			c = toupper(alphabet[i - 26]);
-		}
-		else
-		{
-			c = alphabet[i];
-		}
-		putchar(c);
+	{	
+		putchar(alphabet[i]);
 	}
 	putchar('\n');
 	return (0);
