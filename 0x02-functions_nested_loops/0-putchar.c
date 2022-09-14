@@ -1,14 +1,16 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
-  * main - Entry point of the program
+  * _putchar - Writes char, c to the standard output
+  * @c: Input character
   *
   * Description: This application prints _putchar, followed by a new line."
   *
-  * Return: 0. The program always successfully exits with 0
+  * Return: 1. Returns 1 if successful
+  * If failed, returns -1
   */
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar");
-	return (0);
+	return (write(1, &c, 1));
 }
