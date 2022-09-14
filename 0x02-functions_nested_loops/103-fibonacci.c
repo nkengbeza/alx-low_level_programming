@@ -2,8 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints the sum of even Fibonacci numbers up to a fib value
- * not exceeding 4,000,000.
+ * Description: Prints the sum of even Fibonacci numbers
  * Return: 0
  */
 int main(void)
