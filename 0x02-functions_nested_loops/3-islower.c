@@ -2,11 +2,11 @@
 
 /**
   * _islower - Prints 0 if is lower other 1
- * @c: parameter of type char
+ * @c: parameter of type int
   *
   * Description: This application checks for lowercase character.
   *
-  * Return: 0 if successful
+  * Return: 1 or 0
   */
 int _islower(int c)
 {
