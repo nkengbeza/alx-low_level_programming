@@ -5,7 +5,7 @@
  *
  * Description: This application prints the last digit
  * of a number, n
- * 
+ *
  * Return: return value of last digit
  */
 int print_last_digit(int n)
