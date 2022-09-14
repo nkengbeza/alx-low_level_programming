@@ -4,10 +4,9 @@
  * jack_bauer - Prints time
  *
  * Description: Prints minutes time list
- * 
+ *
  * Return: void.
  */
-
 void jack_bauer(void)
 {
 	int i, j;
