@@ -2,7 +2,7 @@
 
 /**
   * _islower - Prints 0 if is lower other 1
- * @c: parameter of type int
+  * @c: parameter of type int
   *
   * Description: This application checks for lowercase character.
   *

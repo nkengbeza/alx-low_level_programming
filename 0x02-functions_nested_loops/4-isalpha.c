@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
   * _islower - Prints 0 if is lower other 1
   * @c: parameter of type int
@@ -8,7 +9,6 @@
   *
   * Return: 1 if is alpha, otherwise 0
  */
-
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
