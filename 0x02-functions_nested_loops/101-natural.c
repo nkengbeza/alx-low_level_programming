@@ -3,7 +3,7 @@
 /**
  * main - Entry function
  *
- * Description: prints the sum of the multiples of 
+ * Description: prints the sum of the multiples of
  * 3 and 5 between 0 and 1024
  *
  * Return: 0
