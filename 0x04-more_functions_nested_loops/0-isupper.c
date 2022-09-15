@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - Check if a letter is uppercase
+ * _isupper - Check if a letter is uppercase
  * @c: parameter of type int
  *
  * Description: This application checks if the input
