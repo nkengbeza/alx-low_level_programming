@@ -5,7 +5,7 @@
  * @a: parameter of type int
  * @b: parameter of type int
  * @c: parameter of type int
- * 
+ *
  * Return: int
  */
 

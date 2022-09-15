@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the application
- *
- * Return: 0 if successful
- */
+* main - causes an infinite loop
+* Return: 0
+*/
 
 int main(void)
 {
