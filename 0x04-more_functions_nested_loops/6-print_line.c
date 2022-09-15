@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - Prints _ n times
+ * print_line - Prints _ n times
  * @n: parameter of type in
  */
 void print_line(int n)
