@@ -1,14 +1,8 @@
 #include "main.h"
 
 /**
- * mul - Multiplies two numbers
- * @a: parameter of type int
- * @b: parameter of type int
- *
- * Description: This program multiplies two
- * numbers a and b and returns the product
- *
- * Return: int
+ * mul - Prints _ n times
+ * @n: parameter of type in
  */
 void print_line(int n)
 {
