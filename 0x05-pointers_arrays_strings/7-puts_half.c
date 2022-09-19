@@ -15,7 +15,15 @@ void puts_half(char *str)
 		count++;
 	}
 
-	start = (count % 2 == 0) ? count / 2 : (count - 1) / 2;
+	if (count % 2 == 0)
+	{
+		start = count / 2;
+	}
+	else
+	{
+		start = (count - 1) / 2;
+		start -= 1;
+	}
 
 	while (str[start] != '\0')
 	{
