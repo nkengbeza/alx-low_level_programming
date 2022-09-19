@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - Reverses a sting,
+ * rev_string - Reverses a sting,
  * @s: parameter, which is a pointer to str
  *
  * Returns void
@@ -25,6 +25,6 @@ void rev_string(char *s)
 			temp = *(str + j);
 			*(str + j) = *(str + (j - 1));
 			*(str + (j - 1)) = temp;
-		}	
+		}
 	}
 }
