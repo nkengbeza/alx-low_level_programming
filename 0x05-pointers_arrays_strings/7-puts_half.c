@@ -4,7 +4,7 @@
  * puts_half - Prints half of string
  * @str: parameter, which is a pointer to str
  *
- * Returns void
+ * Return: void
  */
 void puts_half(char *str)
 {
@@ -27,6 +27,6 @@ void puts_half(char *str)
 	{
 		_putchar(str[start++]);
 	}
-	
+
 	_putchar('\n');
 }
