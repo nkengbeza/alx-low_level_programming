@@ -21,6 +21,5 @@ char *_strcat(char *dest, char *src)
 		count++;
 	} while  (*(src + count) != '\0');
 	
-	
 	return (dest);
 }
