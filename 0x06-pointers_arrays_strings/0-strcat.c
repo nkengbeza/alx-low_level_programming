@@ -16,11 +16,11 @@ char *_strcat(char *dest, char *src)
 		term_pos++;
 	}
 
-	while (*(src + count) != '\0')
-	{
+	do {
 		*(dest + term_pos + count) = *(src + count);
 		count++;
-	}
+	} while  (*(src + count) != '\0');
+	
 	
 	return (dest);
 }
