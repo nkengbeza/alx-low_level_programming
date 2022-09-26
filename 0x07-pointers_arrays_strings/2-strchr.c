@@ -8,15 +8,19 @@
  */
 char *_strchr(char *s, char c)
 {
-	unsigned int len = 0;
+	unsigned int counter = 0;
 
-	while (*(s + len) != '\0')
+	while (*(s + counter) != '\0')
 	{
-		if (*(s + len) == c)
+		if (*(s + counter) == c)
 		{
-			return (s + len);
+			return (s + counter);
 		}
-		len++;
+		counter++;
+	}
+	if (*(s + counter) == c)
+	{
+		return (s + counter);
 	}
 
 	return ('\0');
