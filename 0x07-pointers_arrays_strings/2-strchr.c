@@ -8,14 +8,14 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i, len = 0;
+	int len = 0;
 	char *p = '\0';
 
 	while (*(s + len) != '\0')
 	{
 		if (*(s + len) == c)
 		{
-			p = (s + 1);
+			p = (s + len);
 			break;
 		}
 		len++;
