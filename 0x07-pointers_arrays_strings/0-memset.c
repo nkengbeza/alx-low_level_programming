@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strncpy - Fills memory with a constant byte
- * @dest: char pointer.
- * @src: char 
+ * _memset - Fills memory with a constant byte
+ * @s: char pointer.
+ * @b: char 
  * @n: amount of bytes.
  * Return: char pointer.
  */
