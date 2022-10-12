@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - executes a function on each array loop
+ * int_index - executes a function on each array loop
  * @array: array of int pointer
  * @size: int.
  * @cmp: function pointer.
