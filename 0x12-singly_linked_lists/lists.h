@@ -7,11 +7,12 @@
 
 /**
  * struct list_s - singly linked list
- * @str: char pointer
+ * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * for Holberton project
  */
 typedef struct list_s
 {
